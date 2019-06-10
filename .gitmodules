@@ -1,0 +1,3 @@
+[submodule "quickstart/themes/dot"]
+	path = quickstart/themes/dot
+	url = https://github.com/themefisher/dot-hugo-documentation-theme.git
