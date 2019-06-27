@@ -1,7 +1,7 @@
 # open_diagnosis
 
 ### Gulp Tasks
-
+*these tasks need to be written to resemble the tasks written in the gulp file*
 - `gulp` the default task that builds everything
 - `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
 - `gulp sass` compiles SCSS files into CSS
