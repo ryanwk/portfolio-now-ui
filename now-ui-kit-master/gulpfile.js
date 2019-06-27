@@ -4,6 +4,7 @@ var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var sourcemaps = require('gulp-sourcemaps');
 var open = require('gulp-open');
+// var browserSync = require('browser-sync').create();
 
 var Paths = {
   HERE: './',
@@ -33,3 +34,10 @@ gulp.task('open', function () {
 
 gulp.task('open-app', ['open', 'watch']);
 
+
+// // Dev task
+// gulp.task('dev', ['SCSS', 'js'], function () {
+//   gulp.watch('./scss/*.scss', ['SCSS']);
+//   gulp.watch('./js/*.js', ['js']);
+//   // gulp.watch('./*.html', browserSync.reload);
+// });
