@@ -34,7 +34,6 @@ gulp.task('open', function () {
 
 gulp.task('open-app', ['open', 'watch']);
 
-
 // // Dev task
 // gulp.task('dev', ['SCSS', 'js'], function () {
 //   gulp.watch('./scss/*.scss', ['SCSS']);
