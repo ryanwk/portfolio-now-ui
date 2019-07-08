@@ -46,10 +46,3 @@ gulp.task('browserSync', function () {
 });
 
 gulp.task('dev', ['open', 'watch', 'browserSync']);
-
-// // Dev task
-// gulp.task('dev', ['SCSS', 'js'], function () {
-//   gulp.watch('./assets/scss/*.scss', ['SCSS']);
-//   gulp.watch('./assets/js/*.js', ['js']);
-//   // gulp.watch('./*.html', browserSync.reload);
-// });
