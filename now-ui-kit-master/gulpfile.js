@@ -4,7 +4,7 @@ var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var sourcemaps = require('gulp-sourcemaps');
 var open = require('gulp-open');
-// var browserSync = require('browser-sync').create();
+var browserSync = require('browser-sync').create();
 
 var Paths = {
   HERE: './',
@@ -32,11 +32,24 @@ gulp.task('open', function () {
     .pipe(open());
 });
 
-gulp.task('open-app', ['open', 'watch']);
+// Configure the browserSync task
+gulp.task('browserSync', function () {
+  var pathArray = Object.keys(Paths).map(function (path) {
+    return Paths[path];
+  });
+
+  browserSync.init(pathArray, {
+    server: {
+      baseDir: './'
+    }
+  });
+});
+
+gulp.task('dev', ['open', 'watch', 'browserSync']);
 
 // // Dev task
 // gulp.task('dev', ['SCSS', 'js'], function () {
-//   gulp.watch('./scss/*.scss', ['SCSS']);
-//   gulp.watch('./js/*.js', ['js']);
+//   gulp.watch('./assets/scss/*.scss', ['SCSS']);
+//   gulp.watch('./assets/js/*.js', ['js']);
 //   // gulp.watch('./*.html', browserSync.reload);
 // });
