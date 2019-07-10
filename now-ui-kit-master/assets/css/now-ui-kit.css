@@ -4126,14 +4126,6 @@ img {
   .section .row + .category {
     margin-top: 15px; }
 
-.alt-section {
-  padding: 70px 0;
-  position: relative;
-  background: #122632; }
-
-.row + .category {
-  margin-top: 15px; }
-
 .section-navbars {
   padding-bottom: 0; }
 
@@ -4356,7 +4348,7 @@ img {
     right: 12%; }
 
 [data-background-color="orange"] {
-  background-color: #FFFFFF; }
+  background-color: #122632; }
 
 [data-background-color="black"] {
   background-color: #2c2c2c; }
@@ -4373,13 +4365,7 @@ img {
     background-color: #FFFFFF; }
   [data-background-color]:not([data-background-color="gray"]) .navbar.bg-white p {
     color: #889298; }
-  [data-background-color]:not([data-background-color="gray"]) h1,
-  [data-background-color]:not([data-background-color="gray"]) h2,
-  [data-background-color]:not([data-background-color="gray"]) h3,
-  [data-background-color]:not([data-background-color="gray"]) h4,
-  [data-background-color]:not([data-background-color="gray"]) h5,
-  [data-background-color]:not([data-background-color="gray"]) h6,
-  [data-background-color]:not([data-background-color="gray"]) a:not(.btn):not(.dropdown-item),
+  [data-background-color]:not([data-background-color="gray"]) h1, [data-background-color]:not([data-background-color="gray"]) h2, [data-background-color]:not([data-background-color="gray"]) h3, [data-background-color]:not([data-background-color="gray"]) h4, [data-background-color]:not([data-background-color="gray"]) h5, [data-background-color]:not([data-background-color="gray"]) h6, [data-background-color]:not([data-background-color="gray"]) a:not(.btn):not(.dropdown-item),
   [data-background-color]:not([data-background-color="gray"]) .icons-container {
     color: #FFFFFF; }
   [data-background-color]:not([data-background-color="gray"]) .input-group-text,
