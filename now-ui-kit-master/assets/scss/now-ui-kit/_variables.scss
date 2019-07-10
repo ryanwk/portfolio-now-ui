@@ -13,7 +13,7 @@ $border-thick: 2px !default;
 
 $white-color: #FFFFFF !default;
 $white-bg: #FFFFFF !default;
-$orange-bg: #FFFFFF !default;
+$orange-bg: #122632 !default;
 
 $smoke-bg: #C9CDD0 !default;
 $light-black: #444 !default;
@@ -27,10 +27,9 @@ $light-gray: #E3E3E3 !default;
 $medium-gray: #C9CDD0 !default;
 $dark-gray: #889298 !default;
 
-$opacity-gray-3: rgba(889298, .3) !default;
+$opacity-gray-3: rgba(201, 205, 208, .3) !default;
 $opacity-gray-5: rgba(201, 205, 208, .5) !default;
 $opacity-gray-8: rgba(201, 205, 208, .8) !default;
-
 
 $opacity-5: rgba(138, 146, 152, .5) !default;
 $opacity-8: rgba(138, 146, 152, .8) !default;
@@ -221,7 +220,7 @@ $width-icon-message: 40px;
 $height-icon-message-sm: 20px;
 $width-icon-message-sm: 20px;
 
-$white-navbar: rgba(#FFFFFF, .96);
+$white-navbar: rgba(#122632, .96);
 $primary-navbar: rgba(#122632, .98);
 $info-navbar: rgba(#5BCAFF, .98);
 $success-navbar: rgba(#4CD964, .98);
