@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-gulp # or grunt?
-
 gsutil -h "Cache-Control:public, max-age=2592000" cp -r -Z ./vendor gs://www.ryanwkoch.com/
 
 gsutil -h "Cache-Control:public, max-age=2592000" cp -r -Z ./assets/css/*.min.css gs://www.ryanwkoch.com/assets/css/
