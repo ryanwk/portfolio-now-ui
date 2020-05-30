@@ -3921,11 +3921,35 @@ img {
 
 .profile-page .photo-container {
   width: 123px;
+  background-color:white;
   height: 123px;
   border-radius: 50%;
-  overflow: hidden;
+  overflow: auto;
   margin: 0 auto;
   box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3); }
+
+.photo-container-checkedin-logo {
+  padding: 5px;
+  background-color:white;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);}
+
+.img-cropper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.img-cropper > img {
+  margin-top: 7px;
+}
 
 .profile-page .title {
   text-align: center;
