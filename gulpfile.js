@@ -13,7 +13,6 @@ var Paths = {
   SCSS_TOOLKIT_SOURCES: './assets/scss/now-ui-kit.scss',
   SCSS: './assets/scss/**/**'
 };
-
 gulp.task('compile-scss', gulp.series(function () {
   return gulp.src(Paths.SCSS_TOOLKIT_SOURCES)
     .pipe(sourcemaps.init())
