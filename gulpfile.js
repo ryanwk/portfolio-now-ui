@@ -30,6 +30,8 @@ gulp.task(
   "watch",
   gulp.series(function () {
     // gulp.watch(Paths.SCSS, ["compile-scss"]);
+    browserSync.watch("*.html", browserSync.reload);
+    browserSync.watch("assets/css/*", browserSync.reload);
   })
 );
 
@@ -48,9 +50,9 @@ gulp.task(
       return Paths[path];
     });
 
-    browserSync.init(pathArray, {
+    browserSync.init(["*"], {
       server: {
-        baseDir: "./",
+        baseDir: "./index.html",
       },
     });
   })
