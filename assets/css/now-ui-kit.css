@@ -5203,7 +5203,7 @@ img {
   width: 100%;
   color: rgba(255, 255, 255, 0.5);
 }
-
+/* 
 .landing-page .header {
   height: 100vh;
   position: relative;
@@ -5234,7 +5234,7 @@ img {
 
 .landing-page .section-contact-us .title {
   margin-bottom: 15px;
-}
+} */
 
 .flickity-enabled {
   position: relative;
@@ -5377,7 +5377,9 @@ img {
 .flickity-page-dots .dot.is-selected {
   opacity: 1;
 }
-
+.b {
+  font-weight: bold;
+}
 .ol {
   display: block;
   list-style-type: decimal;
@@ -5416,7 +5418,7 @@ img {
   overflow-wrap: break-all;
 }
 
-.landing-page .section-contact-us .description {
+/* .landing-page .section-contact-us .description {
   margin-bottom: 30px;
 }
 
@@ -5432,7 +5434,7 @@ img {
 
 .landing-page .section-contact-us a.btn {
   margin-top: 35px;
-}
+} */
 
 .profile-page .page-header {
   min-height: 550px;
