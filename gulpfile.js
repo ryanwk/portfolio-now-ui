@@ -13,23 +13,23 @@ var Paths = {
   SCSS_TOOLKIT_SOURCES: "./assets/scss/now-ui-kit.scss",
   SCSS: "./assets/scss/**/**",
 };
-gulp.task(
-  "compile-scss",
-  gulp.series(function () {
-    return gulp
-      .src(Paths.SCSS_TOOLKIT_SOURCES)
-      .pipe(sourcemaps.init())
-      .pipe(sass().on("error", sass.logError))
-      .pipe(autoprefixer())
-      .pipe(sourcemaps.write(Paths.HERE))
-      .pipe(gulp.dest(Paths.CSS));
-  })
-);
+// gulp.task(
+//   "compile-scss",
+//   gulp.series(function () {
+//     return gulp
+//       .src(Paths.SCSS_TOOLKIT_SOURCES)
+//       .pipe(sourcemaps.init())
+//       .pipe(sass().on("error", sass.logError))
+//       .pipe(autoprefixer())
+//       .pipe(sourcemaps.write(Paths.HERE))
+//       .pipe(gulp.dest(Paths.CSS));
+//   })
+// );
 
 gulp.task(
   "watch",
   gulp.series(function () {
-    gulp.watch(Paths.SCSS, ["compile-scss"]);
+    // gulp.watch(Paths.SCSS, ["compile-scss"]);
   })
 );
 
