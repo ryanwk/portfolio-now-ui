@@ -5373,6 +5373,20 @@ img {
   text-align: center;
   color: white;
 }
+.carousel-cell-odf {
+  padding-top: 50px;
+  overflow-wrap: break-all;
+  white-space: normal;
+  width: 100%;
+  height: 200px;
+  margin-right: 10px;
+  background: #122632;
+  line-height: 200px;
+  font-weight: 50px;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+}
 
 .sub-cell {
   display: flex;
