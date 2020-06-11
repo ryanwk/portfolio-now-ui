@@ -13,6 +13,14 @@ gsutil -h "Cache-Control:public, max-age=2592000" -m cp -Z ./coming_soon.html gs
 
 gsutil -h "Cache-Control:public, max-age=2592000" -m cp -Z ./checked_in.html gs://www.ryanwkoch.com/
 
+gsutil -h "Cache-Control:public, max-age=2592000" -m cp -Z ./favr.html gs://www.ryanwkoch.com/
+
+gsutil -h "Cache-Control:public, max-age=2592000" -m cp -Z ./glass.html gs://www.ryanwkoch.com/
+
+gsutil -h "Cache-Control:public, max-age=2592000" -m cp -Z ./odf_index.html gs://www.ryanwkoch.com/
+
+gsutil -h "Cache-Control:public, max-age=2592000" -m cp -Z ./smart_pantry.html gs://www.ryanwkoch.com/
+
 # gsutil -h "Cache-Control:public, max-age=2592000" cp -Z ./sitemap.xml gs://www.ryanwkoch.com/
 # add -m to end of command if running the script tells you to: "gsutil -m"
 gsutil iam ch allUsers:objectViewer gs://www.ryanwkoch.com/
