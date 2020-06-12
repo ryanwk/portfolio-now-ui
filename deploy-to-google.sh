@@ -21,5 +21,9 @@ gsutil -m cp -Z ./odf_index.html gs://www.ryanwkoch.com/
 
 gsutil -m cp -Z ./smart_pantry.html gs://www.ryanwkoch.com/
 
+gsutil -m cp -Z ./six_sigma.html gs://www.ryanwkoch.com/
+
+gsutil -m cp -Z ./cycle_alert.html gs://www.ryanwkoch.com/
+
 gsutil iam ch allUsers:objectViewer gs://www.ryanwkoch.com/
 
