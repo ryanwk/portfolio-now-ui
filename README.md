@@ -1,6 +1,6 @@
 # portfolio
 
-WIP: updated 05/31/2020
+WIP: updated 10/02/2020
 
 # professional portfolio
 
